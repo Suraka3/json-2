@@ -1,0 +1,92 @@
+{
+    "stored": "2022-02-08T22:01:30.814Z",
+    "active": true,
+    "completedForwardingQueue": [],
+    "failedForwardingLog": [],
+    "client": "605932c3f17cb90025614e57",
+    "lrs_id": "605932c3f17cb90025614e56",
+    "completedQueues": [
+      "STATEMENT_PERSON_QUEUE",
+      "STATEMENT_FORWARDING_QUEUE",
+      "STATEMENT_QUERYBUILDERCACHE_QUEUE"
+    ],
+    "activities": [
+      "https://tech4comp.de/biwi5/file/b6cdcf7eec3abff7e7547f0d837aed700f2f1d48eec2f6729a674db49ff631d7ca35fbaa697e4b7eee2427e4d15ea40412"
+    ],
+    "hash": "a96b8f3ea912ae07445be05702181f3a1d4c61b8",
+    "agents": [
+      "https://chat.tech4comp.dbis.rwth-aachen.de|b6cdcf7eec3abff7e7547f0d837aed700f2f1d48eec2f6729a674db49ff631d7ca35fbaa697e4b7eee2427e4d15ea404"
+    ],
+    "statement": {
+      "authority": {
+        "objectType": "Agent",
+        "name": "New Client",
+        "mbox": "mailto:hello@learninglocker.net"
+      },
+      "stored": "2022-02-08T22:01:30.814Z",
+      "context": {
+        "extensions": {
+          "https://tech4comp.de/xapi/context/extensions/filecontent": {
+            "jsonModel": "[{\"AssociationWeight\":0.5,\"C2\":\"Ressourcen\",\"C1\":\"Unterstützungsmaßnahem\"},{\"AssociationWeight\":0.483870967741935,\"C2\":\"Beispiel\",\"C1\":\"Armut\"},{\"AssociationWeight\":0.5,\"C1\":\"Lehrkräfte\",\"C2\":\"Klassenraum\"},{\"AssociationWeight\":0.5,\"C1\":\"Inklusion\",\"C2\":\"Kindgebunden\"},{\"C1\":\"Inklusion\",\"C2\":\"Kanada\",\"AssociationWeight\":0.483870967741935},{\"AssociationWeight\":0.516129032258065,\"C2\":\"Kanadas\",\"C1\":\"Osten\"},{\"C1\":\"Osten\",\"C2\":\"Provinz\",\"AssociationWeight\":0.5},{\"C1\":\"Zeitplänen\",\"C2\":\"Erarbeiten\",\"AssociationWeight\":0.5},{\"AssociationWeight\":0.5,\"C2\":\"Handels\",\"C1\":\"Grundlage\"},{\"C2\":\"Kooperation\",\"C1\":\"Grundlage\",\"AssociationWeight\":0.483870967741935},{\"C1\":\"School\",\"C2\":\"Service\",\"AssociationWeight\":0.5},{\"AssociationWeight\":0.483870967741935,\"C1\":\"School\",\"C2\":\"Teammeetings\"},{\"C2\":\"Based\",\"C1\":\"School\",\"AssociationWeight\":0.516129032258065},{\"C2\":\"Ressourcen\",\"C1\":\"Kindgebunden\",\"AssociationWeight\":0.5},{\"C2\":\"Lehrpersonen\",\"C1\":\"Unterstützung\",\"AssociationWeight\":0.5},{\"C1\":\"Unterstützung\",\"C2\":\"Notwendigkeit\",\"AssociationWeight\":0.483870967741935},{\"C2\":\"Provinz\",\"C1\":\"Kanadas\",\"AssociationWeight\":0.483870967741935},{\"C2\":\"Eltern\",\"C1\":\"Erarbeiten\",\"AssociationWeight\":0.483870967741935},{\"AssociationWeight\":0.516129032258065,\"C2\":\"Bildung\",\"C1\":\"Inklusive\"},{\"C1\":\"Inklusive\",\"C2\":\"Beispiel\",\"AssociationWeight\":0.483870967741935},{\"C1\":\"Klassenzimmers\",\"C2\":\"Heterogenität\",\"AssociationWeight\":0.5},{\"AssociationWeight\":0.483870967741935,\"C2\":\"Schüler\",\"C1\":\"Support\"},{\"AssociationWeight\":0.483870967741935,\"C1\":\"Berichterstattung\",\"C2\":\"Regionen\"},{\"AssociationWeight\":0.483870967741935,\"C2\":\"Bundesländer\",\"C1\":\"Bildungsfragen\"},{\"AssociationWeight\":0.483870967741935,\"C2\":\"Verständnis\",\"C1\":\"Kanada\"},{\"AssociationWeight\":0.790322580645161,\"C2\":\"Aufgabe\",\"C1\":\"Kanada\"},{\"AssociationWeight\":0.483870967741935,\"C2\":\"Notwendigkeit\",\"C1\":\"Kanada\"},{\"AssociationWeight\":0.5,\"C1\":\"Kanada\",\"C2\":\"Blick\"},{\"C1\":\"Bevölkerung\",\"C2\":\"Heterogenität\",\"AssociationWeight\":0.5},{\"C2\":\"Schulgemeinschaft\",\"C1\":\"Verständnis\",\"AssociationWeight\":0.5},{\"C2\":\"Teammeetings\",\"C1\":\"Service\",\"AssociationWeight\":0.516129032258065},{\"AssociationWeight\":0.516129032258065,\"C1\":\"Service\",\"C2\":\"Based\"},{\"AssociationWeight\":0.854838709677419,\"C2\":\"Aufgabe\",\"C1\":\"Heterogenität\"},{\"AssociationWeight\":0.483870967741935,\"C2\":\"Brunswick\",\"C1\":\"Heterogenität\"},{\"AssociationWeight\":0.5,\"C1\":\"Heterogenität\",\"C2\":\"Umgang\"},{\"C1\":\"Educational\",\"C2\":\"Plan\",\"AssociationWeight\":0.516129032258065},{\"C1\":\"Kind\",\"C2\":\"Förderbedarf\",\"AssociationWeight\":0.5},{\"C1\":\"Schüler\",\"C2\":\"Aufgabe\",\"AssociationWeight\":0.5},{\"C2\":\"Schülerin\",\"C1\":\"Schüler\",\"AssociationWeight\":0.483870967741935},{\"C2\":\"Maßnahme\",\"C1\":\"Schüler\",\"AssociationWeight\":0.532258064516129},{\"AssociationWeight\":1,\"C2\":\"Schülerinnen\",\"C1\":\"Schüler\"},{\"C1\":\"Kooperation\",\"C2\":\"Kommunikation\",\"AssociationWeight\":0.5},{\"C1\":\"Absprachen\",\"C2\":\"Klassenlehrerinnen\",\"AssociationWeight\":0.5},{\"AssociationWeight\":0.483870967741935,\"C1\":\"Absprachen\",\"C2\":\"Eltern\"},{\"AssociationWeight\":0.483870967741935,\"C1\":\"Klassen\",\"C2\":\"Teamteaching\"},{\"AssociationWeight\":0.483870967741935,\"C2\":\"Eltern\",\"C1\":\"Kommune\"},{\"C2\":\"Beispiel\",\"C1\":\"Dimensionen\",\"AssociationWeight\":0.483870967741935},{\"C2\":\"Maßnahme\",\"C1\":\"Lernzugänge\",\"AssociationWeight\":0.483870967741935},{\"AssociationWeight\":0.483870967741935,\"C2\":\"Maßnahme\",\"C1\":\"Aufgabe\"},{\"C1\":\"Methods\",\"C2\":\"Teachers\",\"AssociationWeight\":0.483870967741935},{\"C1\":\"Methods\",\"C2\":\"Recource\",\"AssociationWeight\":0.5},{\"C1\":\"Assistent\",\"C2\":\"Teachers\",\"AssociationWeight\":0.516129032258065},{\"AssociationWeight\":0.483870967741935,\"C1\":\"Förderungen\",\"C2\":\"Schülerinnen\"},{\"C1\":\"Teachers\",\"C2\":\"Recource\",\"AssociationWeight\":0.516129032258065},{\"AssociationWeight\":0.516129032258065,\"C2\":\"Kritikpunkt\",\"C1\":\"Schröders\"},{\"C2\":\"Based\",\"C1\":\"Teammeetings\",\"AssociationWeight\":0.5},{\"C1\":\"Ländern\",\"C2\":\"Schulentwicklung\",\"AssociationWeight\":0.483870967741935}]",
+            "text": "Schreibaufgabe Sitzung 12 \n(A) Zuerst soll erwhnt werden, warum sich ein vergleichender Blick auf Kanada bezogen auf das \ndortige Bildungssystem lohnt. Zum einen verfgen die kanadischen Provinzen, hnlich wie die \ndeutschen Bundeslnder, ber Bildungsfragen und zum anderen wird Schulentwicklung in beiden \nLndern als administrativer und integrativer Bottom up Prozess betrachtet. \nInklusion wird in Kanada nicht nur als Aufgabe der Schule betrachtet, sondern als \ngesamtgesellschaftliche Aufgabe und qualitative Manahme, die angesichts der wachsenden \nHeterogenitt der Bevlkerung als notwendig gilt. Es gibt viel Support fr die Schulen, innerhalb und \nauerhalb. Diversitt wird mehr anerkannt und geschtzt. Kanada sieht eine Notwendigkeit bei der \nUntersttzung der Lehrpersonen, um die herausforderungsreichen Aufgaben innerhalb eines auf \nHeterogenitt ausgerichteten Klassenzimmers bewltigen zu knnen. Auch hat Kanada ein weites \nVerstndnis von Schulgemeinschaft. Dazu gehren dort nmlich auch beispielsweise die Eltern und \ndie Kommune. Kommunikation und Kooperation gelten als Grundlage professionellen Handels aller \nam Bildungsprozess beteiligten Akteure. Im Gegensatz zu Deutschland sind \nUntersttzungsmanahem und Ressourcen nicht kindgebunden und Inklusion ist an jedes Kind \ngerichtet, nicht nur an Kinder mit Frderbedarf. New Brunswick, eine maritime Provinz im Osten \nKanadas, ist ein gutes Beispiel fr gelungene Inklusive Bildung. Da spielen viele Faktoren mit rein. Es \ngibt Methods und Recource Teachers. Diese unterrichten Klassen meistens im Teamteaching und \nbieten individuelle Frderungen fr einzelne Schlerinnen und Schler an. Sie erhalten monatliche \nWeiterbildungen und koordinieren wchentliche School Based Service Teammeetings. Des Weiteren \nuntersttzen die die Klassenlehrerinnen bei Absprachen mit den Eltern und dem Erarbeiten von \nZeitplnen etc. Dann gibt es noch die Assistent Teachers. Diese bekommen einzelne Schlerinnen \noder Schler mit SEN zugewiesen und untersttzen die Lehrkrfte im Klassenraum. Fr jeden Schler \nund jede Schlerin gibt es einen Special Educational Plan (SEP), indem lang-und kurzfristige Lernziele, \nsowie individuelle Lernzugnge und therapeutische Manahmen etc. festgelegt werden. Diese \nwerden fortlaufend aktualisiert und jhrlich evaluiert. \n \n(B) Ein Kritikpunkt Schrders ist, dass sich die erziehungswissenschaftliche Berichterstattung auf \neinzelne Regionen beschrnkt. Der hervorragende Umgang mit Heterogenitt in New Brunswick wird \nauf das komplette kanadische Bildungssystem verallgemeinert. Die Forschung sollte sich des \nWeiteren auch auf andere Dimensionen (zum Beispiel die konomische Armut etc.) ausweiten, da \nder Fokus sehr stark nur auf den positiven Aspekten liegt. \n \n",
+            "assignmentNumber": "12"
+          }
+        }
+      },
+      "actor": {
+        "account": {
+          "name": "b6cdcf7eec3abff7e7547f0d837aed700f2f1d48eec2f6729a674db49ff631d7ca35fbaa697e4b7eee2427e4d15ea404",
+          "homePage": "https://chat.tech4comp.dbis.rwth-aachen.de"
+        },
+        "objectType": "Agent"
+      },
+      "timestamp": "2022-02-08T22:01:30.814Z",
+      "version": "1.0.0",
+      "id": "e2d99ea4-91f8-4adf-a7af-f1548c635e85",
+      "verb": {
+        "display": {
+          "en-US": "sent_file"
+        },
+        "id": "https://tech4comp.de/xapi/verb/sent_file"
+      },
+      "object": {
+        "definition": {
+          "interactionType": "other",
+          "name": {
+            "en-US": "Schreibaufgabe12.pdf"
+          },
+          "description": {
+            "en-US": "Schreibaufgabe12.pdf"
+          },
+          "type": "https://tech4comp.de/xapi/activitytype/file"
+        },
+        "id": "https://tech4comp.de/biwi5/file/b6cdcf7eec3abff7e7547f0d837aed700f2f1d48eec2f6729a674db49ff631d7ca35fbaa697e4b7eee2427e4d15ea40412",
+        "objectType": "Activity"
+      }
+    },
+    "hasGeneratedId": true,
+    "deadForwardingQueue": [],
+    "voided": false,
+    "verbs": [
+      "https://tech4comp.de/xapi/verb/sent_file"
+    ],
+    "personaIdentifier": "6172e0cee459ea3526362d58",
+    "processingQueues": [],
+    "person": {
+      "_id": "6172e0cecbb9690040503257",
+      "display": "b6cdcf7eec3abff7e7547f0d837aed700f2f1d48eec2f6729a674db49ff631d7ca35fbaa697e4b7eee2427e4d15ea404 - https://chat.tech4comp.dbis.rwth-aachen.de (xAPI Account)"
+    },
+    "__v": 1,
+    "timestamp": "2022-02-08T22:01:30.814Z",
+    "relatedActivities": [
+      "https://tech4comp.de/biwi5/file/b6cdcf7eec3abff7e7547f0d837aed700f2f1d48eec2f6729a674db49ff631d7ca35fbaa697e4b7eee2427e4d15ea40412"
+    ],
+    "relatedAgents": [
+      "https://chat.tech4comp.dbis.rwth-aachen.de|b6cdcf7eec3abff7e7547f0d837aed700f2f1d48eec2f6729a674db49ff631d7ca35fbaa697e4b7eee2427e4d15ea404",
+      "mailto:hello@learninglocker.net"
+    ],
+    "organisation": "5d75242f2ba8a000256244a7",
+    "_id": "6202e83bf391370081f6204c",
+    "registrations": [],
+    "pendingForwardingQueue": []
+  }
